@@ -30,7 +30,7 @@ An entity is a collection of related facts. An entity is created by creating an 
 
 Stuart Halloway from Datomic likes to point out that in real life data is not square. A person table in a SQL database is a large square containing the same shaped facts about everyone.
 
-So while loosely speaking you can map Datomic's entity id to a 
+So while loosely speaking you can think of Datomic's entity id as a primary key in a relational table. Instead of just mapping the columns in that table to the id you can match any attribute in your schema to it.
 
 I've been doing a lot of travelling the last half year so I could create an entity representing me at the beginning of the year:
 
