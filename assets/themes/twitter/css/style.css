@@ -5,13 +5,13 @@ html, body {
 .navbar {
   margin-bottom: 0;
 }
-/*.container > footer {
+.container > footer {
   margin-top: 20px;
 }
 .container > footer p {
   text-align: center; /* center align it with the container */
-/*}
-*/
+}
+
 /* The white background content wrapper */
 .content {
 /*  background-color: #fff;

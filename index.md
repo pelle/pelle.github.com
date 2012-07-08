@@ -1,46 +1,37 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Pelle Braendgaard
+tagline: Clojure and Datomic developer
+
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+## Clojure
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+[Clojure](http://clojure.org) is a lisp like language running on the JVM. Clojure is one of the first languages where time and how data changes over time is a key factor.
 
-## Update Author Attributes
+To me this makes it almost uniquely suitable for writing financial applications, where time is also one of the most important factors.
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+I come to Clojure from the Ruby world where I have lived since 2004 (previously I worked in Java, Perl and C).
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+## Datomic
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+[Datomic](http://datomic.com) is the database from Rich Hickey the original creator of Clojure. It brings many of his ideas of immutability and time to the database world. This is very new but is very different than both traditional relational databases and more modern NoSQL database. It has the potential to really revolutionize data in large scale financial apps.
 
-    $ rm -rf _posts/core-samples
+I will be highlighting my own experiments with it here.
 
-Here's a sample "posts list".
+## OAuth
+
+Security is an important part of financial applications. I was one of the earliest ruby developers to focus on OAuth and other security aspects. I'm bringing this experience with me to the Clojure world and have written 2 OAuth libraries for Clojure
+
+* [Clauth](http://pelle.github.com/clauth) a library for exposing your applications api through OAuth 2.
+* [Oauthentic](http://github.com/pelle/oauthentic) a library for integrating your application with another api through OAuth2.
+
+
+## Posts
 
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
