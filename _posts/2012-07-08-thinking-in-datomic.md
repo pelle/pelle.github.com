@@ -28,7 +28,7 @@ A datom could look like this:
 
 An entity is a collection of related facts. An entity is created by creating an entity id and mapping facts to it. These facts can change through time and datomic indexes and remembers this.
 
-Stuart Holloway from Datomic likes to point out that in real life data is not square. A person table in a SQL database is a large square containing the same shaped facts about everyone.
+Stuart Halloway from Datomic likes to point out that in real life data is not square. A person table in a SQL database is a large square containing the same shaped facts about everyone.
 
 So while loosely speaking you can map Datomic's entity id to a 
 
