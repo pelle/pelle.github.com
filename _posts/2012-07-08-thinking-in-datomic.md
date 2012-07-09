@@ -7,7 +7,7 @@ category: Datomic
 tags: [datomic, datoms, modelling]
 ---
 {% include JB/setup %}
-[Datomic](http://datomic.com) is so different than regular databases that your average developer will probably chose to ignore it. But for the developer and startup who takes the time to understand it properly I think it can be a real unfair advantage as a choice for a data layer in your application.
+[Datomic](http://datomic.com) is so different than regular databases that your average developer will probably choose to ignore it. But for the developer and startup who takes the time to understand it properly I think it can be a real unfair advantage as a choice for a data layer in your application.
 
 In this article I will deal with the core fundamental definition of how data is stored in Datomic. This is very different from all other databases so before we even deal with querying and transactions I think it's a good idea to look at it.
 
