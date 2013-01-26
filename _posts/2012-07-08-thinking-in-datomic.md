@@ -13,9 +13,9 @@ In this article I will deal with the core fundamental definition of how data is 
 
 ## Datoms are facts about entities not tables
 
-When you initially look at Datomic you can be fooled into thinking that it is just a better relational database as the query language makes it look that way. 
+When you initially look at Datomic you can be fooled into thinking that it is just a better relational database as the query language makes it look that way.
 
-In fact it is much more similar to the RDF concept of triples, which consist of entities, attribute keys and values. 
+In fact it is much more similar to the RDF concept of triples, which consist of entities, attribute keys and values.
 
 Datomic's core data element is the *datom* which is like a triple but adds time to it, so I guess you could say it uses Quadruples.
 
@@ -67,7 +67,7 @@ So Datomic would now have the following datoms about me:
 
 At any point I can check where did I live at the beginning of the year. This is always available.
 
-I won't get into how to querying this yet, but have a look at [Datomic's Querying documentation](http://datomic.com/company/resources/query) to wet your beak.
+I won't get into how to querying this yet, but have a look at [Datomic's Querying documentation](http://docs.datomic.com/query.html) to wet your beak.
 
 ## Thinking outside the square
 
@@ -77,7 +77,7 @@ Datomic namespaces the attributes as a convenience to your application. Instead 
 
 ## Duck typed data
 
-For example you could create a <code>:person/name</code> attribute. But you could also save yourself some repetition and create a general name attribute lets say <code>:general/name</code> that could be used to name any kind of entity. 
+For example you could create a <code>:person/name</code> attribute. But you could also save yourself some repetition and create a general name attribute lets say <code>:general/name</code> that could be used to name any kind of entity.
 
 In my application I have people, organizations, apps and many other kind of entities. By having a generic name attribute I can share code. It is irrelevant that the name is for an organization, app or a person.
 
@@ -89,4 +89,4 @@ In general when modelling your data and you see various patterns repeat try to n
 
 ### Future posts
 
-In future posts I probably wont try to duplicate any of [Datomic's own documentation](http://datomic.com/company/resources/getting-started) but focus on small areas that I've found useful in getting my mind around Datomic.
+In future posts I probably wont try to duplicate any of [Datomic's own documentation](http://docs.datomic.com/getting-started.html) but focus on small areas that I've found useful in getting my mind around Datomic.
