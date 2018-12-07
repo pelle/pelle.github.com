@@ -1,0 +1,14 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "id": "did:https:pelle.github.io",
+  "publicKey": [{
+    "id": "did:https:pelle.github.io#owner",
+    "type": "Secp256k1VerificationKey2018",
+    "owner": "did:https:pelle.github.io",
+    "ethereumAddress": "0x8abb84a555de500636aa510325e0fd4ca4debbef"
+  }],
+  "authentication": [{
+    "type": "Secp256k1SignatureAuthentication2018",
+    "publicKey": "did:https:pelle.github.io#owner"
+  }]
+}
